@@ -21,5 +21,5 @@ This Node.js script utility automates the cleanup of files in Google Drive that 
    node rm_img.js
    ```
 5. **Integrate Automation:**
-6. 
+   
    Integrate with task schedulers (e.g., cron jobs) or CI/CD pipelines for regular automated cleanup of Google Drive files.
