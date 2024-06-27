@@ -13,12 +13,13 @@ This Node.js script utility automates the cleanup of files in Google Drive that 
    ```
    
 3. **Configure Script:**:
-   - Update credentials.json with your Google Cloud credentials.
-   - Modify daysThreshold variable in driveFileCleaner.js to set the number of days files should be kept before deletion.
+   - Put your Google Cloud credentials into the storage_credential.json file (in the same folder level with the rm_img.js file).
+   - Modify daysThreshold variable in rm_img.js to set the number of days files should be kept before deletion.
 
 4. **Run the Script:**
    ```bash
    node rm_img.js
    ```
 5. **Integrate Automation:**
+6. 
    Integrate with task schedulers (e.g., cron jobs) or CI/CD pipelines for regular automated cleanup of Google Drive files.
